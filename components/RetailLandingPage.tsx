@@ -93,7 +93,7 @@ export const RetailPage = () => {
               transition={{ type: "spring", stiffness: 400, damping: 20 }}
             >
               <img
-                src="/logo2.png"
+                src="/Images/logo2.png"
                 alt="Retail AI Solutions"
                 className="h-9 w-auto object-contain"
               />
@@ -520,7 +520,7 @@ export const RetailPage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-4 flex items-center">
-                <img src="/logo2.png" alt="STAAJ AI Solutions" className="h-8 w-auto mr-2" />
+                <img src="/Images/logo2.png" alt="STAAJ AI Solutions" className="h-8 w-auto mr-2" />
                 <span>STAAJ AI Solutions</span>
               </h3>
               <p className="text-sm text-gray-400 mb-4">

@@ -287,7 +287,7 @@ const GenericLandingPage = () => {
         'Custom Solutions - Bring us your business problems, we\'ll help you solution them with tailored strategies.',
       ],
       ideal: 'Businesses of all sizes looking for scalable, effective, people-driven growth.',
-      image: '/staaj-solutions.png',
+      image: '/Images/staaj-solutions.png',
       link: '/staaj-services?service=overview'
     },
     {
@@ -301,7 +301,7 @@ const GenericLandingPage = () => {
 
       ],
       ideal: 'Small to medium-sized businesses aiming to improve customer interactions and satisfaction.',
-      image: '/staaj-lite.png',
+      image: '/Images/staaj-lite.png',
       link: '/staaj-services?service=lite'
     },
     {
@@ -315,7 +315,7 @@ const GenericLandingPage = () => {
 
       ],
       ideal: 'Growing businesses seeking to scale operations efficiently and effectively.',
-      image: '/staaj-pro.png',
+      image: '/Images/staaj-pro.png',
       link: '/staaj-services?service=pro'
     },
     {
@@ -327,7 +327,7 @@ const GenericLandingPage = () => {
       objective: 'Who it\'s for:\nEstablished businesses (30-50+ people) looking to cross into 8-figure territory with confidence.\n\nWhat they get:\n• Full executive team support without the full-time cost\n• Revenue operations that drive measurable ROI\n• Better data visibility to guide strategy\n• Workflow optimization across departments\n• Scalable structure for sustainable growth\n\nWhy it matters:\nYou\'re past "startup." Now it\'s about legacy. We help you lead with clarity and stay ahead of the curve.',
       features: [],
       ideal: 'Established businesses aiming to maintain momentum and navigate complex challenges.',
-      image: '/staaj-enterprise.png',
+      image: '/Images/staaj-enterprise.png',
       link: '/staaj-services?service=enterprise'
     },
     {
@@ -339,7 +339,7 @@ const GenericLandingPage = () => {
       objective: 'Who it\'s for:\nAny organization facing a specific hurdle, pivot, or opportunity that doesn\'t fit a one-size-fits-all plan.\n\nWhat they get:\n• Targeted problem-solving with expert support\n• Rapid-response workshops and action plans\n• Flexible team involvement based on the issue\n• Cross-functional expertise across PPT\n\nWhy it matters:\nNot every business challenge fits a template. When things get complex, we help you solution with speed, clarity, and confidence.',
       features: [],
       ideal: 'Businesses with unique needs that require specialized solutions beyond standard offerings.',
-      image: '/custom-solutions.png',
+      image: '/Images/custom-solutions.png',
       link: '/staaj-services?service=custom'
     },
   ];
@@ -357,7 +357,7 @@ const GenericLandingPage = () => {
         "We stay close to the work until it's done right",
       ],
       finalLine: "No fluff, just hands-on help that drives results.",
-      image: "/images/generic-1.png"
+      image: "/Images/generic-1.png"
     },
     // {
     //   icon: <TrendingUp className="w-8 h-8" />,
@@ -368,10 +368,10 @@ const GenericLandingPage = () => {
     //     [],
     //   finalLine: "",
     //   image: [
-    //   "/images/p1.png",
-    //   "/images/p2.jpeg",
-    //   "/images/p3.jpeg",
-    //   "/images/p4.png"
+    //   "/Images/p1.png",
+    //   "/Images/p2.jpeg",
+    //   "/Images/p3.jpeg",
+    //   "/Images/p4.png"
     // ],
 
     // },
@@ -386,7 +386,7 @@ const GenericLandingPage = () => {
         "Ongoing Support: We stay closely involved to keep things aligned, adjust strategies, and ensure consistent progress."
       ],
       finalLine: "Our approach is fully turnkey and designed to deliver results without adding complexity.",
-      image: "/images/generic-3.png"
+      image: "/Images/generic-3.png"
 
     },
     {
@@ -400,7 +400,7 @@ const GenericLandingPage = () => {
         "A trusted partner who evolves with you"
       ],
       finalLine: "We measure our success by your success. We're here for the long haul.",
-      image: "/images/generic-4.png"
+      image: "/Images/generic-4.png"
     }
   ];
 
@@ -507,7 +507,7 @@ const GenericLandingPage = () => {
                 <Link href="/">
                   <div className="relative">
                     <Image
-                      src="/logo2.png"
+                      src="/Images/logo2.png"
                       alt="Your Company"
                       width={100}
                       height={36}
@@ -569,7 +569,7 @@ const GenericLandingPage = () => {
       {/* HERO SECTION */}
       <section className="relative py-0 min-h-[calc(100vh-5rem)] flex items-center overflow-hidden">
         <Image
-          src="/landingpage.png"
+          src="/Images/landingpage.png"
           alt="Landing Page Background"
           fill
           className="absolute inset-0 w-full h-full object-cover z-0"
@@ -692,7 +692,7 @@ const GenericLandingPage = () => {
       <section
         ref={sectionRef}
         id="services"
-        className="py-16 bg-gradient-to-br from-gray-50 via-pink-25 to-white relative overflow-hidden"
+        className="py-16 bg-gradient-to-br from-gray-50 via-pink-25 to-white relative"
       >
         <DotBackground density={1} opacity={0.2} color="#919294" />
         {/* Optimized Background Elements - Reduced blur for better performance */}
@@ -1092,7 +1092,7 @@ const GenericLandingPage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-4 flex items-center text-gray-900">
-                <img src="/logo2.png" alt="STAAJ Solutions" className="h-8 w-auto mr-2" />
+                <img src="/Images/logo2.png" alt="STAAJ Solutions" className="h-8 w-auto mr-2" />
               </h3>
               <p className="text-sm text-gray-600 mb-6 leading-relaxed">
                 Empowering organizations to scale with confidence through people-first strategies and innovative solutions.
@@ -1102,7 +1102,7 @@ const GenericLandingPage = () => {
                   <Linkedin className="w-4 h-4" />
                 </a>
                 <a href="https://x.com/Staajsolutions" className="p-2 bg-white rounded-lg border border-gray-200 text-gray-600 hover:text-blue-500 hover:border-blue-200 hover:shadow-md transition-all duration-200">
-                  <img src="/images/x.svg" className="w-4 h-4" />
+                  <img src="/Images/x.svg" className="w-4 h-4" />
                 </a>
                 <a href="https://www.facebook.com/staajsolutions" className="p-2 bg-white rounded-lg border border-gray-200 text-gray-600 hover:text-blue-600 hover:border-blue-200 hover:shadow-md transition-all duration-200">
                   <Facebook className="w-4 h-4" />

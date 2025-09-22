@@ -163,7 +163,7 @@ export default function LandingPage() {
         <Link href="/" className="flex items-center group" style={{ textDecoration: 'none' }}>
           <div className="h-14 w-auto flex items-center">
             <img
-              src="/logo2.png"
+              src="/Images/logo2.png"
               alt="STAAJ Solutions"
               className="object-contain h-12 w-auto logo-hover-effect"
               draggable={false}
@@ -207,7 +207,7 @@ export default function LandingPage() {
               <div className="bg-gradient-to-br from-pink-100 to-red-100 rounded-2xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 <div className="relative bg-white rounded-xl overflow-hidden shadow-lg">
                   <img
-                    src="hero_background.png"
+                    src="/Images/hero_background.png"
                     alt="Business professionals collaborating"
                     className="w-full h-auto"
                   />
@@ -244,7 +244,7 @@ export default function LandingPage() {
             <div className="flex justify-center mb-6">
               <div className="w-16 h-16 overflow-hidden rounded-lg bg-white flex items-center justify-center shadow-lg border border-pink-200 animate-logo-bounce opacity-80 mix-blend-multiply">
                 <img
-                  src="/logo.png"
+                  src="/Images/logo.png"
                   alt="STAAJ Solutions"
                   className="object-contain w-full h-full"
                   style={{ aspectRatio: "1 / 1" }}

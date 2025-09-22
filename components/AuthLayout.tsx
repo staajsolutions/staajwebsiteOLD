@@ -279,7 +279,7 @@ const SidebarContent: React.FC = () => {
     {testimonials[currentTestimonial].name[0]}
   </div> : <div className='bg-slate-200 rounded-full p-2'>
       <Image
-              src="/images/pitchlink_logo.png"
+              src="/Images/pitchlink_logo.png"
               alt="Pitch Link Logo"
               className="object-contain"
               priority
