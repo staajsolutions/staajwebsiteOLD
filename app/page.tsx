@@ -244,7 +244,7 @@ export default function LandingPage() {
             <div className="flex justify-center mb-6">
               <div className="w-16 h-16 overflow-hidden rounded-lg bg-white flex items-center justify-center shadow-lg border border-pink-200 animate-logo-bounce opacity-80 mix-blend-multiply">
                 <img
-                  src="/Images/logo.png"
+                  src="/images/logo.png"
                   alt="STAAJ Solutions"
                   className="object-contain w-full h-full"
                   style={{ aspectRatio: "1 / 1" }}

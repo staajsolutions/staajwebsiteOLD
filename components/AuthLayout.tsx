@@ -279,7 +279,7 @@ const SidebarContent: React.FC = () => {
     {testimonials[currentTestimonial].name[0]}
   </div> : <div className='bg-slate-200 rounded-full p-2'>
       <Image
-              src="/Images/pitchlink_logo.png"
+              src="/images/pitchlink_logo.png"
               alt="Pitch Link Logo"
               className="object-contain"
               priority
@@ -313,7 +313,7 @@ export const AuthLayout: React.FC<{ children: ReactNode }> = ({ children }) => (
         <div className="flex items-center space-x-4">
           <Link href="/" className="block w-48 h-12 relative transition-transform hover:scale-105" title="Go to homepage">
             <Image
-              src="/logo2.png"
+              src="images/logo2.png"
               alt="STAAJ Solutions Logo"
               fill
               className="object-contain"

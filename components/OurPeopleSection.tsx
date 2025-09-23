@@ -6,28 +6,28 @@ const people = [
         title: "Founder and President",
         description:
             "Sam leads STAAJ with a focus on clarity, results, and real relationships. He brings years of experience scaling businesses and helps clients think bigger while staying grounded in what works.",
-        image: "/Images/p1.png",
+        image: "/images/p1.png",
     },
     {
         name: "Bryna Kirzner",
         title: "Founder and Chief Operating Officer",
         description:
             "Bryna keeps everything running smoothly. She's an expert in operations and team leadership, and she helps clients turn big goals into simple, workable plans.",
-        image: "/Images/p2.jpeg",
+        image: "/images/p2.jpeg",
     },
     {
         name: "Garrett Finley",
         title: "Co-Founder and Director of Operational Integrity",
         description:
             "Garrett makes sure every client feels supported and seen. He blends process expertise with a deep commitment to service, helping teams work smarter and communicate better.",
-        image: "/Images/p4.png",
+        image: "/images/p4.png",
     },
     {
         name: "Alex Wichman",
         title: "Co-Founder and Director of Marketing",
         description:
             "Alex helps clients find their voice and connect with the right audience. He brings creative energy and strategic thinking to every project, making sure brands grow with purpose.",
-        image: "/Images/p3.jpeg",
+        image: "/images/p3.jpeg",
     },
 ]
 
