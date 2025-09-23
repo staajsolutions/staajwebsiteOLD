@@ -163,7 +163,7 @@ export default function LandingPage() {
         <Link href="/" className="flex items-center group" style={{ textDecoration: 'none' }}>
           <div className="h-14 w-auto flex items-center">
             <img
-              src="/Images/logo2.png"
+              src="/images/logo2.png"
               alt="STAAJ Solutions"
               className="object-contain h-12 w-auto logo-hover-effect"
               draggable={false}
@@ -207,7 +207,7 @@ export default function LandingPage() {
               <div className="bg-gradient-to-br from-pink-100 to-red-100 rounded-2xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 <div className="relative bg-white rounded-xl overflow-hidden shadow-lg">
                   <img
-                    src="/Images/hero_background.png"
+                    src="/images/hero_background.png"
                     alt="Business professionals collaborating"
                     className="w-full h-auto"
                   />
