@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -12,11 +13,24 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <body className={inter.className}>
+        {children} 
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/23288613.js"></script>
+<!-- End of HubSpot Embed Code -->
+        <Script
+          id="hs-script-loader" 
+          src="//js-na2.hs-scripts.com/23288613.js" 
+          strategy="afterInteractive" 
+          async 
+          defer 
+        />
+      </body>
     </html>
   );
 }
