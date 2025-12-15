@@ -12,11 +12,20 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <body className={inter.className}>
+        {children} 
+        <Script
+          id="hs-script-loader" 
+          src="//js-na2.hs-scripts.com/23288613.js" 
+          strategy="afterInteractive" 
+          async 
+          defer 
+        />
+      </body>
     </html>
   );
 }
