@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children} 
-        
         <Script
           id="hs-script-loader" 
           src="//js-na2.hs-scripts.com/23288613.js" 
